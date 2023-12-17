@@ -1,0 +1,111 @@
+----------------------------------------------------------------------------------------------------
+Make Directory Texas/Continuous_GATConv in Logs
+[91mSep27-07:11:42[0m
+----------------------------------------------------------------------------------------------------
+[Texas]   seed=42
+----------------------------------------------------------------------------------------------------
+lr=0.01 diffusion_steps=80 temperature=0.3 schedule=True weight_decay=0.01  skip=False load start=1000
+nhid=8 layers=1 linears=1
+----------------------------------------------------------------------------------------------------
+Pretrain mean-field GNN...
+Done!
+[EPOCH 0051] | train acc: 8.391e-01 | val acc: 5.254e-01 | test acc: 6.216e-01
+[EPOCH 0101] | train acc: 9.425e-01 | val acc: 5.424e-01 | test acc: 6.216e-01
+[EPOCH 0151] | train acc: 9.425e-01 | val acc: 5.932e-01 | test acc: 5.946e-01
+[EPOCH 0201] | train acc: 9.540e-01 | val acc: 5.763e-01 | test acc: 5.946e-01
+[EPOCH 0251] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.946e-01
+[EPOCH 0301] | train acc: 9.080e-01 | val acc: 5.932e-01 | test acc: 5.676e-01
+[EPOCH 0351] | train acc: 9.425e-01 | val acc: 5.932e-01 | test acc: 5.135e-01
+[EPOCH 0401] | train acc: 9.540e-01 | val acc: 5.763e-01 | test acc: 5.405e-01
+[EPOCH 0451] | train acc: 9.540e-01 | val acc: 5.254e-01 | test acc: 5.405e-01
+[EPOCH 0501] | train acc: 9.540e-01 | val acc: 5.593e-01 | test acc: 5.946e-01
+[EPOCH 0551] | train acc: 9.425e-01 | val acc: 5.932e-01 | test acc: 5.946e-01
+[EPOCH 0601] | train acc: 8.851e-01 | val acc: 6.271e-01 | test acc: 5.946e-01
+[EPOCH 0651] | train acc: 9.080e-01 | val acc: 5.932e-01 | test acc: 6.486e-01
+[EPOCH 0701] | train acc: 9.310e-01 | val acc: 6.441e-01 | test acc: 6.216e-01
+[EPOCH 0751] | train acc: 9.425e-01 | val acc: 6.102e-01 | test acc: 6.216e-01
+[EPOCH 0801] | train acc: 9.425e-01 | val acc: 5.593e-01 | test acc: 6.216e-01
+[EPOCH 0851] | train acc: 9.425e-01 | val acc: 6.102e-01 | test acc: 6.216e-01
+[EPOCH 0901] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.135e-01
+[EPOCH 0951] | train acc: 9.540e-01 | val acc: 5.763e-01 | test acc: 6.216e-01
+[EPOCH 1001] | train acc: 9.195e-01 | val acc: 5.932e-01 | test acc: 5.946e-01
+[EPOCH 1051] | train acc: 9.080e-01 | val acc: 6.271e-01 | test acc: 5.946e-01
+[EPOCH 1101] | train acc: 9.080e-01 | val acc: 6.441e-01 | test acc: 5.946e-01
+[EPOCH 1151] | train acc: 9.310e-01 | val acc: 6.102e-01 | test acc: 5.946e-01
+[EPOCH 1201] | train acc: 9.195e-01 | val acc: 5.932e-01 | test acc: 5.946e-01
+[EPOCH 1251] | train acc: 9.425e-01 | val acc: 5.593e-01 | test acc: 5.946e-01
+[EPOCH 1301] | train acc: 9.425e-01 | val acc: 5.254e-01 | test acc: 5.676e-01
+[EPOCH 1351] | train acc: 9.195e-01 | val acc: 5.932e-01 | test acc: 5.946e-01
+[EPOCH 1401] | train acc: 9.195e-01 | val acc: 5.763e-01 | test acc: 5.405e-01
+[EPOCH 1451] | train acc: 8.966e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 1501] | train acc: 9.310e-01 | val acc: 5.593e-01 | test acc: 5.676e-01
+[EPOCH 1551] | train acc: 9.310e-01 | val acc: 5.932e-01 | test acc: 5.676e-01
+[EPOCH 1601] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 1651] | train acc: 9.310e-01 | val acc: 5.932e-01 | test acc: 5.676e-01
+[EPOCH 1701] | train acc: 9.310e-01 | val acc: 5.424e-01 | test acc: 5.676e-01
+[EPOCH 1751] | train acc: 9.195e-01 | val acc: 5.763e-01 | test acc: 5.946e-01
+[EPOCH 1801] | train acc: 9.425e-01 | val acc: 5.932e-01 | test acc: 5.676e-01
+[EPOCH 1851] | train acc: 9.310e-01 | val acc: 5.932e-01 | test acc: 5.676e-01
+[EPOCH 1901] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 1951] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.946e-01
+[EPOCH 2001] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 2051] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 2101] | train acc: 8.851e-01 | val acc: 5.763e-01 | test acc: 6.216e-01
+[EPOCH 2151] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 2201] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.946e-01
+[EPOCH 2251] | train acc: 9.540e-01 | val acc: 5.932e-01 | test acc: 5.676e-01
+[EPOCH 2301] | train acc: 9.195e-01 | val acc: 5.932e-01 | test acc: 5.676e-01
+[EPOCH 2351] | train acc: 9.310e-01 | val acc: 5.932e-01 | test acc: 5.676e-01
+[EPOCH 2401] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 2451] | train acc: 9.195e-01 | val acc: 5.763e-01 | test acc: 5.946e-01
+[EPOCH 2501] | train acc: 9.540e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 2551] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 2601] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.946e-01
+[EPOCH 2651] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 2701] | train acc: 9.195e-01 | val acc: 5.763e-01 | test acc: 5.946e-01
+[EPOCH 2751] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 2801] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 2851] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 2901] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 2951] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3001] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3051] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3101] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3151] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3201] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3251] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3301] | train acc: 9.540e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3351] | train acc: 9.540e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3401] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3451] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3501] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3551] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3601] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3651] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3701] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3751] | train acc: 9.195e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3801] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3851] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3901] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 3951] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4001] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4051] | train acc: 9.540e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4101] | train acc: 9.655e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4151] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4201] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4251] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4301] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4351] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4401] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4451] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4501] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4551] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4601] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4651] | train acc: 9.540e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4701] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4751] | train acc: 9.540e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4801] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4851] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4901] | train acc: 9.425e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+[EPOCH 4951] | train acc: 9.310e-01 | val acc: 5.763e-01 | test acc: 5.676e-01
+ 

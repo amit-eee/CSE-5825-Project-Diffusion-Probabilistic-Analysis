@@ -1,0 +1,60 @@
+----------------------------------------------------------------------------------------------------
+Make Directory pubmed/Gaussian_GCNConv in Logs
+[91mSep27-11:27:58[0m
+----------------------------------------------------------------------------------------------------
+[pubmed]   seed=42
+----------------------------------------------------------------------------------------------------
+lr=0.0005 unweighted_MSE=True diffusion_steps=80 schedule=True weight_decay=0.003 cat=False skip=False
+nhid=16 layers=2 linears=2
+----------------------------------------------------------------------------------------------------
+[EPOCH 0001] | train acc: 3.221e-01 | val acc: 1.835e-01 | val graph: 1.200e-01 | test node: 1.639e-01 | test graph: 8.900e-02
+[EPOCH 0201] | train acc: 4.034e-01 | val acc: 2.460e-01 | val graph: 1.620e-01 | test node: 2.428e-01 | test graph: 1.380e-01
+[EPOCH 0401] | train acc: 5.798e-01 | val acc: 5.727e-01 | val graph: 5.080e-01 | test node: 5.470e-01 | test graph: 4.780e-01
+[EPOCH 0601] | train acc: 7.367e-01 | val acc: 7.370e-01 | val graph: 5.820e-01 | test node: 7.226e-01 | test graph: 5.310e-01
+[EPOCH 0801] | train acc: 8.739e-01 | val acc: 7.795e-01 | val graph: 6.040e-01 | test node: 7.763e-01 | test graph: 5.380e-01
+[EPOCH 1001] | train acc: 8.235e-01 | val acc: 7.555e-01 | val graph: 5.880e-01 | test node: 7.494e-01 | test graph: 5.440e-01
+[EPOCH 1201] | train acc: 8.515e-01 | val acc: 7.669e-01 | val graph: 5.920e-01 | test node: 7.514e-01 | test graph: 5.300e-01
+[EPOCH 1401] | train acc: 8.627e-01 | val acc: 7.617e-01 | val graph: 5.740e-01 | test node: 7.562e-01 | test graph: 5.230e-01
+[EPOCH 1601] | train acc: 8.880e-01 | val acc: 7.666e-01 | val graph: 5.720e-01 | test node: 7.555e-01 | test graph: 5.170e-01
+[EPOCH 1801] | train acc: 9.272e-01 | val acc: 7.532e-01 | val graph: 5.460e-01 | test node: 7.532e-01 | test graph: 5.060e-01
+[EPOCH 2001] | train acc: 9.440e-01 | val acc: 7.551e-01 | val graph: 5.520e-01 | test node: 7.548e-01 | test graph: 5.250e-01
+[EPOCH 2201] | train acc: 9.580e-01 | val acc: 7.455e-01 | val graph: 5.320e-01 | test node: 7.482e-01 | test graph: 5.010e-01
+[EPOCH 2401] | train acc: 9.580e-01 | val acc: 7.606e-01 | val graph: 5.480e-01 | test node: 7.501e-01 | test graph: 5.090e-01
+[EPOCH 2601] | train acc: 9.608e-01 | val acc: 7.444e-01 | val graph: 5.280e-01 | test node: 7.489e-01 | test graph: 4.940e-01
+[EPOCH 2801] | train acc: 9.636e-01 | val acc: 7.451e-01 | val graph: 5.220e-01 | test node: 7.487e-01 | test graph: 4.970e-01
+[EPOCH 3001] | train acc: 9.664e-01 | val acc: 7.444e-01 | val graph: 5.200e-01 | test node: 7.635e-01 | test graph: 4.940e-01
+[EPOCH 3201] | train acc: 9.636e-01 | val acc: 7.458e-01 | val graph: 5.220e-01 | test node: 7.704e-01 | test graph: 4.940e-01
+[EPOCH 3401] | train acc: 9.692e-01 | val acc: 7.569e-01 | val graph: 5.180e-01 | test node: 7.663e-01 | test graph: 4.920e-01
+[EPOCH 3601] | train acc: 9.692e-01 | val acc: 7.603e-01 | val graph: 5.200e-01 | test node: 7.675e-01 | test graph: 4.920e-01
+[EPOCH 3801] | train acc: 9.664e-01 | val acc: 7.728e-01 | val graph: 5.160e-01 | test node: 7.629e-01 | test graph: 4.870e-01
+[EPOCH 4001] | train acc: 9.664e-01 | val acc: 7.684e-01 | val graph: 5.160e-01 | test node: 7.567e-01 | test graph: 4.780e-01
+[EPOCH 4201] | train acc: 9.692e-01 | val acc: 7.754e-01 | val graph: 5.160e-01 | test node: 7.622e-01 | test graph: 4.890e-01
+[EPOCH 4401] | train acc: 9.692e-01 | val acc: 7.725e-01 | val graph: 5.200e-01 | test node: 7.576e-01 | test graph: 4.870e-01
+[EPOCH 4601] | train acc: 9.664e-01 | val acc: 7.643e-01 | val graph: 5.120e-01 | test node: 7.521e-01 | test graph: 4.830e-01
+[EPOCH 4801] | train acc: 9.664e-01 | val acc: 7.751e-01 | val graph: 5.180e-01 | test node: 7.578e-01 | test graph: 4.870e-01
+[EPOCH 5001] | train acc: 9.692e-01 | val acc: 7.721e-01 | val graph: 5.140e-01 | test node: 7.540e-01 | test graph: 4.850e-01
+[EPOCH 5201] | train acc: 9.692e-01 | val acc: 7.688e-01 | val graph: 5.100e-01 | test node: 7.523e-01 | test graph: 4.860e-01
+[EPOCH 5401] | train acc: 9.692e-01 | val acc: 7.691e-01 | val graph: 5.080e-01 | test node: 7.530e-01 | test graph: 4.870e-01
+[EPOCH 5601] | train acc: 9.692e-01 | val acc: 7.695e-01 | val graph: 5.140e-01 | test node: 7.526e-01 | test graph: 4.860e-01
+[EPOCH 5801] | train acc: 9.692e-01 | val acc: 7.654e-01 | val graph: 5.060e-01 | test node: 7.457e-01 | test graph: 4.770e-01
+[EPOCH 6001] | train acc: 9.692e-01 | val acc: 7.629e-01 | val graph: 5.140e-01 | test node: 7.468e-01 | test graph: 4.790e-01
+[EPOCH 6201] | train acc: 9.692e-01 | val acc: 7.673e-01 | val graph: 5.100e-01 | test node: 7.484e-01 | test graph: 4.780e-01
+[EPOCH 6401] | train acc: 9.664e-01 | val acc: 7.673e-01 | val graph: 5.120e-01 | test node: 7.492e-01 | test graph: 4.820e-01
+[EPOCH 6601] | train acc: 9.664e-01 | val acc: 7.658e-01 | val graph: 5.120e-01 | test node: 7.469e-01 | test graph: 4.780e-01
+[EPOCH 6801] | train acc: 9.692e-01 | val acc: 7.621e-01 | val graph: 5.100e-01 | test node: 7.459e-01 | test graph: 4.740e-01
+[EPOCH 7001] | train acc: 9.692e-01 | val acc: 7.640e-01 | val graph: 5.140e-01 | test node: 7.466e-01 | test graph: 4.730e-01
+[EPOCH 7201] | train acc: 9.664e-01 | val acc: 7.603e-01 | val graph: 5.080e-01 | test node: 7.446e-01 | test graph: 4.710e-01
+[EPOCH 7401] | train acc: 9.692e-01 | val acc: 7.610e-01 | val graph: 5.120e-01 | test node: 7.453e-01 | test graph: 4.730e-01
+[EPOCH 7601] | train acc: 9.692e-01 | val acc: 7.606e-01 | val graph: 5.120e-01 | test node: 7.400e-01 | test graph: 4.650e-01
+[EPOCH 7801] | train acc: 9.692e-01 | val acc: 7.621e-01 | val graph: 5.120e-01 | test node: 7.425e-01 | test graph: 4.700e-01
+[EPOCH 8001] | train acc: 9.692e-01 | val acc: 7.599e-01 | val graph: 5.080e-01 | test node: 7.416e-01 | test graph: 4.690e-01
+[EPOCH 8201] | train acc: 9.636e-01 | val acc: 7.540e-01 | val graph: 5.080e-01 | test node: 7.274e-01 | test graph: 4.560e-01
+[EPOCH 8401] | train acc: 9.692e-01 | val acc: 7.580e-01 | val graph: 5.040e-01 | test node: 7.396e-01 | test graph: 4.670e-01
+[EPOCH 8601] | train acc: 9.692e-01 | val acc: 7.569e-01 | val graph: 5.060e-01 | test node: 7.400e-01 | test graph: 4.700e-01
+[EPOCH 8801] | train acc: 9.692e-01 | val acc: 7.603e-01 | val graph: 5.080e-01 | test node: 7.409e-01 | test graph: 4.690e-01
+[EPOCH 9001] | train acc: 9.692e-01 | val acc: 7.540e-01 | val graph: 5.100e-01 | test node: 7.357e-01 | test graph: 4.630e-01
+[EPOCH 9201] | train acc: 9.720e-01 | val acc: 7.551e-01 | val graph: 5.080e-01 | test node: 7.347e-01 | test graph: 4.640e-01
+[EPOCH 9401] | train acc: 9.692e-01 | val acc: 7.536e-01 | val graph: 5.060e-01 | test node: 7.352e-01 | test graph: 4.580e-01
+[EPOCH 9601] | train acc: 9.692e-01 | val acc: 7.532e-01 | val graph: 5.020e-01 | test node: 7.373e-01 | test graph: 4.640e-01
+[EPOCH 9801] | train acc: 9.720e-01 | val acc: 7.536e-01 | val graph: 5.040e-01 | test node: 7.338e-01 | test graph: 4.630e-01
+ 
